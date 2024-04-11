@@ -1,0 +1,28 @@
+.clockSection {
+    &.cyan {
+        background-color: cyan;
+    }
+
+    &.green {
+        background-color: green;
+    }
+
+    &.yellow {
+        background-color: yellow;
+    }
+
+    &.orange {
+        background-color: orange;
+    }
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    span {
+        // background-color: cyan;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
